@@ -1,0 +1,188 @@
+table {
+  border-collapse: collapse;
+}
+ th {
+  background-color: transparent;
+}
+
+th, td {
+  border: 1px solid #bd1c1c;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  
+  background-color: transparent;
+}
+
+tr{
+  background-color: transparent;
+  background-color: transparent;
+}
+tr:hover {
+  background: #b6f508;
+}
+
+
+table {
+  margin: 210 auto; /* Center horizontally */
+  position: absolute; /* Position the table absolutely */
+  top: 50%; /* Position the top edge at 50% of the parent height */
+  left: 50%; /* Position the left edge at 50% of the parent width */
+  transform: translate(-50%, -50%); /* Translate the table by half its width and height */
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center; /* Center text within cells */
+}
+table th, table td {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+
+table {
+  color: rgb(20, 123, 219);
+}
+
+
+
+
+
+
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #c02222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+
+nav {
+  background: url("silm.png")
+  no-repeat center center fixed;
+  background-size: cover; /* Adjust the background size as needed */
+}
+
+
+body {
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+  background: url("Screenshot\ 2024-12-14\ 145237.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+table{
+   padding: 20px 10px;
+  width: 60%;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+
+  background-color: transparent;
+
+}
+
+
+
+table {
+  background-color: transparent;
+}
+
+
+
+table {
+  margin: 250auto; /* Center horizontally */
+  position: absolute; /* Position the table absolutely */
+  top: 50%; /* Position the top edge at 50% of the parent height */
+  left: 50%; /* Position the left edge at 50% of the parent width */
+  transform: translate(-50%, -50%); /* Translate the table by half its width and height */
+}
+
+
+
+nav {
+  background: linear-gradient(to right, #333, #000); /* Dark to black gradient */
+  color: #fff; /* White text */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit; /* Inherit the text color from the parent */
+}
+
+nav a:hover {
+  color: #f00; /* Red on hover */
+}
+
+
+
+nav {
+  background-color: #333; /* Dark background color */
+  padding: 10px; /* Add padding to the navigation bar */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px; /* Add spacing between buttons */
+}
+
+nav a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold; /* Bold font weight */
+  padding: 10px 20px; /* Add padding to the buttons */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #f00; /* Red background on hover */
+}

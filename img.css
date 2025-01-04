@@ -1,0 +1,33 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+img {
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    background: url("Screenshot\ 2024-12-14\ 145237.png")
+      no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+  }
